@@ -5,4 +5,4 @@ const mongoose = require("mongoose");
 const mongoDB = process.env.MONGODB_URI;
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 
-module.exports = { mongoose, sequelize };
+module.exports = { mongoose };

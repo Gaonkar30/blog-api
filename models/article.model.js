@@ -1,4 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+const { Schema } = mongoose;
+
 const articleSchema = new Schema({
   id: String,
   title: String,
