@@ -33,10 +33,14 @@ A simple blogging platform API built with Node.js, Express, and MongoDB.
    git clone https://github.com/your-username/blog-api.git
    cd blog-api
 2.Install dependencies:
+    ```bash
     npm install
 3.Set up environment variables:
-   Create a .env file in the root directory and add your MongoDB configuration:MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.qtxxlfs.mongodb.net/<dbname>?retryWrites=true&w=majority
+   Create a .env file in the root directory and add your MongoDB configuration:
+   ```bash
+   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.qtxxlfs.mongodb.net/<dbname>?      retryWrites=true&w=majority
    PORT=3000
 4.Start the server:
+```bash
   node app.js
 
